@@ -21,7 +21,7 @@
       position: relative;
     }
     .nav-links li:hover {
-      color: #fe5900;
+      color: #ff7300;
     }
     .nav-links a {
       text-decoration: none;
@@ -47,10 +47,10 @@
       text-decoration: none;
     }
     .dropdown a:hover {
-      color: #fe5900;
+      color: #ff7300;
     }
     .navbar li a:hover {
-        color: #fe5900;
+        color: #ff7300;
     }
     .contact-btn {
       padding: 12px 50px;
@@ -62,7 +62,7 @@
       transition: all 0.4s ease;
     }
     button:hover{
-        background: #fe5900;
+        background: #ff7300;
         color: white;
     }
   

@@ -24,10 +24,6 @@ function EVPage() {
           <button className="instant-quote-btn">Instant Quote</button>
         </div>
       </div>
-
-      
-
-      
     </div>
   );
 }
