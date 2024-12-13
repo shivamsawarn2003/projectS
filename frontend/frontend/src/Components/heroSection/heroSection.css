@@ -31,7 +31,7 @@ body{
     background-color: #ff7300; 
     color: white;
     border: none;
-    padding: 15px 30px;
+    padding: 15px 60px;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 25px;
@@ -71,6 +71,7 @@ body{
     z-index: -100;
     height: 100vh;
     filter: brightness(0.6);
+    max-width: 100%;
   }
   .textlayer{
     text-align: left;
@@ -84,14 +85,16 @@ body{
     margin-bottom: 25px;
   }
   .textlayer p{
-    line-height: 1.3em;
+    line-height: 1.7em;
+    word-spacing: 0.125rem;
     font-family: montserrat, sans-serif;
-    font-size: 0.85em;
+    font-size: 1em;
     letter-spacing: 0.15em;
     margin-bottom: 30px;
   }
   .textlayer button{
     margin: 10px;
+    border-radius: 25px;
   }
     
   

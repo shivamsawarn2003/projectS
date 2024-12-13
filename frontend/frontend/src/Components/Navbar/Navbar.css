@@ -36,7 +36,7 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border: 1px solid #ddd;
       padding: 10px;
-      z-index: 1000;
+      z-index: 1;
       font-size: 0.8rem;
       border-radius: 0 0 18px 18px;
     }
@@ -54,7 +54,6 @@
     }
     .contact-btn {
       padding: 12px 50px;
-      margin-left: 250px;
       border:1px solid #fe5900;
       cursor: pointer;
       background-color: #fff;

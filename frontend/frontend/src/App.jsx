@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
+// import { Routes, Route } from 'react-router-dom';  
 import viteLogo from '/vite.svg'
 import Navbar from './Components/Navbar/Navbar'
 import Herosection from './Components/heroSection/heroSection'

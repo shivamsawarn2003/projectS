@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import logo from '../../assets/img/logo.png';
+// import form from '../../Components/ContactUsform/ContactUsform.jsx'
+// import Reliability from '../../Pages/Reliability-as-a-service.jsx';
+// import LearningDevelopment from '../../Pages/LearningDevelopment.jsx';
 
 const Navbar = () => {
   const [dropdown, setDropdown] = useState(null);
@@ -10,7 +13,7 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* Navbar */}
+      
       <nav className="navbar">
         <div className="logo"><img src={logo} alt="logo" /></div>
         <ul className="nav-links">
@@ -21,8 +24,8 @@ const Navbar = () => {
             What We Do
             {dropdown === 'whatWeDo' && (
               <div className="dropdown">
-                <a href="Reliability-as-a-service">Reliability as a Service (RaaS)</a>
-                <a href="Learning-and-development">Learning & Development</a>
+                <a href="realibility">Reliability as a Service (RaaS)</a>
+                <a href="LearningDevelopment">Learning & Development</a>
               </div>
             )}
           </li>
@@ -57,7 +60,8 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <button className="contact-btn">Contact Us</button>
+        
+        <button className="contact-btn" >Contact Us</button>
       </nav>
     </div>
   );
