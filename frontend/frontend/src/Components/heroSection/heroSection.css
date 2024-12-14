@@ -89,6 +89,7 @@ body{
     word-spacing: 0.125rem;
     font-family: montserrat, sans-serif;
     font-size: 1em;
+    text-align: left;
     letter-spacing: 0.15em;
     margin-bottom: 30px;
   }
