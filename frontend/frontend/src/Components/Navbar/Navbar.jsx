@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import logo from '../../assets/img/logo.png';
+// import { useContext } from 'react';
+import { UserContext } from '../../UserContext';
 // import form from '../../Components/ContactUsform/ContactUsform.jsx'
 // import Reliability from '../../Pages/Reliability-as-a-service.jsx';
 // import LearningDevelopment from '../../Pages/LearningDevelopment.jsx';
@@ -55,11 +57,33 @@ const Navbar = () => {
             )}
           </li>
           <li>
-            <a href="/news-events" target="_blank" rel="noopener noreferrer">
-              News + Events
+            <a href="news-events" target="_blank" rel="noopener noreferrer">
+              News + Event
             </a>
           </li>
         </ul>
+        {/* <div className="auth-section">
+          {!user ? (
+            <div className="auth-buttons">
+              <Link to="/login" className="auth-btn">
+                Login
+              </Link>
+              <Link to="/register" className="auth-btn">
+                Register
+              </Link>
+            </div>
+          ) : (
+            <div className="user-avatar" onClick={toggleAccountDropdown}>
+              <div className="avatar-circle">{user.name.charAt(0).toUpperCase()}</div>
+              {accountDropdown && (
+                <div className="account-dropdown">
+                  <p>Logged in as: {user.name}</p>
+                  <button onClick={logoutUser}>Logout</button>
+                </div>
+              )}
+            </div>
+          )}
+        </div> */}
         
         <button className="contact-btn" >Contact Us</button>
       </nav>

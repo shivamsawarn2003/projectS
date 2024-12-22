@@ -6,7 +6,6 @@ import Footer from "../Components/footer/footer2";
 function businesses(){
     return(
         <>
-           <Navbar/> 
            <Secondaryherosec 
   heading={
     <>

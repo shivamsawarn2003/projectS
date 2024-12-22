@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f9fc;
+    color: #333;
+  }
+  .PayHead {
+    background: #fff;
+    justify-content: left;
+    text-align: center;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+  };
+  .Payhead img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  .PayHead p{
+    font-weight: 500;
+    color: #000;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 1.5rem 0 0 1.5rem;
+    font-size: 27px;
+  }
+  .main-container{
+    height: 20vh;
+    border-top: 0.5px solid #e5e7eb;
+    margin-top: 0;
+  }
+  .mail-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding-top: 1rem;
+    place-content: space-between;
+  }
+  .mail-container p{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .mail-container-btn{
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    margin: 0.25rem 0;
+    display: inline-flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255 255 255);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+  }
+  .Quote p{
+    font-size: 36px;
+  }
+  #blueText{
+    color: #2d9cdb;
+  }
+
+  
+  /* Responsive Styles */
+  /* @media screen and (max-width: 768px) {
+    PayHead, .mail-quote-container {
+      padding: 1rem;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .PayHead img {
+      width: 40px;
+      height: 40px;
+    }
+  
+   .PayHead p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+  
+    .Quote p {
+      font-size: 1.2rem;
+    }
+  } */
